@@ -1,0 +1,103 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* header */
+.dashboard-header {
+	background-color: $primary-color;
+	height: 120px;
+	width:100%;
+	color: $white;
+}
+.logo, .avatar {
+	margin:15px 0;
+	max-width: 90px;
+}
+.credentials {
+	padding: 15px 0 0 0;
+	font-size: 1.5em;
+	
+	.username {
+		display:block;
+		padding-bottom: 15px;
+	}
+	.fa.fa-envelope {
+		padding-right:10px;
+	}
+}
+.mailbox {
+	position:relative;
+}
+.mail-number {
+	font-size:5px;
+	background-color:$pink;
+	color:$white;
+	font-weight:bold;
+	border:1px solid $pink;
+	border-radius: 50%;
+	padding:2px;
+	position:absolute;
+	right:-3px;
+	top:-3px;
+}
+
+/* navigation */
+.menu li {
+	text-align:center;
+}
+.menu li a {
+	padding:37.5px 20px;
+	font-size: 0.88em;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: $white;
+	text-decoration:none;
+	height:100%;
+	display:inline-block;
+	min-width: 90px;
+}
+.menu li a:hover {
+	text-decoration:none;
+	color: $white;
+	background-color: #000;
+}
+.menu li a span {
+	font-size: 1.5em;
+}
+
+/* login and search icons */
+.login span {
+	font-size:1.5em;
+	margin-top:38px;
+}
+
+/* icons */
+/*
+.icon {
+	height: 24px;
+	width: 24px;
+	display:inline-block;
+	background-size:cover;
+	color: $white;
+}
+.settings-icon {
+	background-image: url('../img/Common/settings-24.png');
+}
+.search-icon {
+	background-image: url('../img/Common/find.png');
+}
+*/
+
+main {
+		background-color: $dashboard-bg;
+	h1 {
+		font-family: "Roboto Condensed", sans-serif;
+	}
+	button {
+		background-color: $primary-color;
+		color: $white;
+		text-transform: uppercase;
+		font-size:0.88em;
+		padding:10px 5px;
+	}
+}
