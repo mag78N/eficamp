@@ -29,15 +29,16 @@ body {
 	position:relative;
 }
 .mail-number {
-	font-size:5px;
+	font-size:12px;
+	line-height:12px;
 	background-color:$pink;
 	color:$white;
 	font-weight:bold;
 	border:1px solid $pink;
 	border-radius: 50%;
-	padding:2px;
+	padding:1px 4px;
 	position:absolute;
-	right:-3px;
+	right:5px;
 	top:-3px;
 }
 
@@ -89,7 +90,9 @@ body {
 */
 
 main {
-		background-color: $dashboard-bg;
+		background-color: $light-grey;
+		padding:20px 0;
+
 	h1 {
 		font-family: "Roboto Condensed", sans-serif;
 	}
@@ -99,5 +102,53 @@ main {
 		text-transform: uppercase;
 		font-size:0.88em;
 		padding:10px 5px;
+	}
+}
+
+/* finance stream */
+
+
+/* chart */
+.chart {
+	background-color: $white;
+}
+
+/* products */
+.product {
+	background-color: $white;
+	font-size:0.9em;
+	padding:20px 10px;
+	.icon {
+		color: $light-grey;
+		font-size:2em;
+		float:left;
+		margin-right: 10px;
+	}
+}
+.products.highlighted {
+	background-color: $primary-color;
+	.icon {
+		color: $white;
+	}
+}
+
+/* history */
+
+.history-flow {
+	max-height: 400px;
+	overflow-y:auto;
+}
+.green {
+	color: $green;
+}
+.history-item {
+	background-color: $white;
+	border-bottom: 1px solid $light-grey;
+	padding: 20px 10px;
+	.name {
+		max-width:300px;
+	}
+	.amount {
+	text-align:right;
 	}
 }
