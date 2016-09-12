@@ -50,8 +50,13 @@
 @include motion-ui-animations;
 
 @import 'colors';
-@import 'variables';
-@import 'typography';
+// @import 'variables';
+// @import 'typography';
 @import 'main';
-@import 'Pages/Login/login';
-@import 'Pages/Dashboard/dashboard';
+@import 'components/buttons';
+@import 'components/header';
+// @import 'components/footer';
+@import 'pages/login';
+@import 'pages/dashboard';
+@import 'pages/budgets';
+@import 'pages/gamification';

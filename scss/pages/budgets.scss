@@ -1,0 +1,32 @@
+
+.circle-chart {
+	border: 30px solid $white;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	float:left;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	display:table-cell;
+	vertical-align:middle;
+	p {
+		text-align: center;
+		margin-bottom: 0;
+		color: $black;
+	}
+	&.selected {
+		border-width: 15px;
+		position:relative;
+		background-color: #EEEEEE;
+		
+	}
+	&.blue {
+		border-color: $primary-color;
+	}
+	&.pink {
+		border-color: $pink;
+	}
+	&.yellow {
+		border-color: $yellow;
+	}
+}

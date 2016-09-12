@@ -1,0 +1,76 @@
+.header {
+	background-color: $primary-color;
+	height: 120px;
+	width:100%;
+	color: $white;
+}
+.logo, .avatar {
+	margin:15px 0;
+	max-width: 90px;
+}
+.credentials {
+	padding: 15px 0 0 0;
+	font-size: 1.5em;
+	
+	.username {
+		display:block;
+		padding-bottom: 15px;
+	}
+	.fa.fa-envelope {
+		padding-right:10px;
+	}
+}
+.mailbox {
+	position:relative;
+}
+.mail-number {
+	font-size:12px;
+	line-height:12px;
+	background-color:$pink;
+	color:$white;
+	font-weight:bold;
+	border:1px solid $pink;
+	border-radius: 50%;
+	padding:1px 4px;
+	position:absolute;
+	right:5px;
+	top:-3px;
+}
+
+/* navigation */
+.menu li {
+	text-align:center;
+}
+.menu li a {
+	padding:36px 20px;
+	font-size: 0.88em;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: $white;
+	text-decoration:none;
+	height:100%;
+	display:inline-block;
+	min-width: 90px;
+}
+.menu li a:hover {
+	text-decoration:none;
+	color: $white;
+	background-color: #000;
+}
+.menu li a i {
+	font-size: 1.5em;
+}
+
+/* login and search icons */
+.login > span {
+	font-size:1.5em;
+	margin-top: 30%;
+}
+.login .search {
+	border-right: 1px solid $white;
+	padding: 15px;
+	margin-right: 15px;
+}
+.login .fa-power-off {
+	color: $pink;
+}

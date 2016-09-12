@@ -49,4 +49,8 @@ getMoneyDataWithAjax( "data/summary", function(response) {
 
 });
 
+	$(".circle-chart").on("click", function() {
+		this.addClass(".selected");
+	});
+
 });

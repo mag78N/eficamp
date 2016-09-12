@@ -1,0 +1,11 @@
+button {
+	background-color: $primary-color;
+	color: $white;
+	text-transform: uppercase;
+	font-size:0.88em;
+	padding:10px;
+
+	.inactive {
+		background-color: $grey;
+	}
+}

@@ -1,0 +1,47 @@
+/* finance stream */
+
+
+/* chart */
+.chart {
+	background-color: $white;
+}
+
+/* products */
+.product {
+	background-color: $white;
+	font-size:0.9em;
+	padding:20px 10px;
+	.icon {
+		color: $light-grey;
+		font-size:2em;
+		float:left;
+		margin-right: 10px;
+	}
+}
+.products.highlighted {
+	background-color: $primary-color;
+	.icon {
+		color: $white;
+	}
+}
+
+/* history */
+
+.history-flow {
+	max-height: 400px;
+	overflow-y:auto;
+}
+.green {
+	color: $green;
+}
+.history-item {
+	background-color: $white;
+	border-bottom: 1px solid $light-grey;
+	padding: 20px 10px;
+	.name {
+		max-width:300px;
+	}
+	.amount {
+	text-align:right;
+	}
+}
